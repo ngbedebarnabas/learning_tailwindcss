@@ -8,3 +8,14 @@
 
   /* --font-nunito: "Nunito", "sans-serif"; */
 }
+
+.card {
+  @apply bg-white rounded-2xl overflow-hidden shadow-md relative;
+}
+.tag{
+  @apply  bg-primary text-white p-2 rounded-full font-semibold absolute top-0 left-0 m-3 flex align-middle gap-1;
+}
+
+.btn {
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider
+}
